@@ -18,6 +18,8 @@ npm start
 ## 相关属性说明
 
 ```
+FileTable组件:
+
 @columns 要展示的列（数组类型）：
   title: 列名称（字符串，必须）
   key: 列键值 （字符串或整型，必须）
@@ -46,6 +48,11 @@ npm start
   selectedRows：选中的列表项（数组类型）
   currentPath：当前文件路径，字符串类型
   callback：操作后的回调函数
+
+BreadNav组件
+
+@path 当前文件（夹）路径，字符串类型
+@callback 点击路径名称的回调函数
  ```
 
  ***实际运用后的效果图可在public目录下查看File Table.jpg***

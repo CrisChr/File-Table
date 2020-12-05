@@ -1,3 +1,9 @@
+/**
+ * @path 文件（夹）路径
+ * @rootTitle 根路径名
+ * @handleClickPath 点击路径的回调
+ */
+
 import React from "react";
 import  BreadcrumbText from "./bread-crumb-text";
 
