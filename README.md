@@ -37,7 +37,7 @@ FileTable组件:
     none：一直生效
     single: 单选生效
     multiple：多选生效
-    icon：按钮图标，默认Ant Icon，可自定义，为ReactNode类型
+  icon：按钮图标，默认Ant Icon，可自定义，为ReactNode类型
 
 @search 是否显示搜索框，默认为true
 
