@@ -1,0 +1,130 @@
+{
+  "name": "my-file-table",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.3.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "antd": "^4.9.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.1",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "rules": {
+      "no-console": 1,
+      "arrow-parens": [
+        2,
+        "as-needed"
+      ],
+      "arrow-spacing": [
+        2,
+        {
+          "before": true,
+          "after": true
+        }
+      ],
+      "array-bracket-spacing": [
+        2,
+        "never"
+      ],
+      "brace-style": [
+        2,
+        "1tbs",
+        {
+          "allowSingleLine": true
+        }
+      ],
+      "comma-spacing": [
+        2,
+        {
+          "before": false,
+          "after": true
+        }
+      ],
+      "comma-style": [
+        2,
+        "last"
+      ],
+      "eqeqeq": [
+        2,
+        "allow-null"
+      ],
+      "key-spacing": [
+        2,
+        {
+          "beforeColon": false,
+          "afterColon": true
+        }
+      ],
+      "no-cond-assign": 2,
+      "no-debugger": 2,
+      "no-dupe-keys": 2,
+      "no-duplicate-case": 2,
+      "no-fallthrough": 2,
+      "no-floating-decimal": 2,
+      "no-func-assign": 2,
+      "no-mixed-spaces-and-tabs": 2,
+      "no-multiple-empty-lines": [
+        2,
+        {
+          "max": 2
+        }
+      ],
+      "no-obj-calls": 2,
+      "no-redeclare": 2,
+      "no-spaced-func": 2,
+      "no-undef": 2,
+      "no-undef-init": 2,
+      "space-before-function-paren": [
+        2,
+        "never"
+      ],
+      "space-infix-ops": 2,
+      "object-curly-spacing": 2,
+      "spaced-comment": [
+        2,
+        "always",
+        {
+          "markers": [
+            "global",
+            "globals",
+            "eslint",
+            "eslint-disable",
+            "*package",
+            "!",
+            ","
+          ]
+        }
+      ],
+      "wrap-iife": [
+        2,
+        "any"
+      ],
+      "jsx-a11y/anchor-is-valid": "off",
+      "import/no-named-as-default": 0
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
