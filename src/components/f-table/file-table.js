@@ -98,7 +98,7 @@ export default class FileTable extends React.Component {
               onSearch={(value, e) => this.handleSearch(value, e)} allowClear />
           }
         </Row>
-        <Table style={{marginTop: "10px"}} rowKey={rowKey} dataSource={files}
+        <Table style={{marginTop: "10px"}} rowKey={rowKey} dataSource={files} scroll={files.length > 10 ? {y: 600} : false}
           locale={{
             emptyText: <div className="file-empty"></div>,
           }}
