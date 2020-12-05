@@ -47,3 +47,5 @@ npm start
   currentPath：当前文件路径，字符串类型
   callback：操作后的回调函数
  ```
+
+ ![File Table component show case](/public/File Table.jpg)
