@@ -48,4 +48,4 @@ npm start
   callback：操作后的回调函数
  ```
 
- ![File Table component show case](/public/File Table.jpg)
+ ***实际运用后的效果图可在public目录下查看File Table.jpg***
